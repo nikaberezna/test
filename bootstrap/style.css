@@ -1,0 +1,8 @@
+.menu__container {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    gap: 15px;
+}

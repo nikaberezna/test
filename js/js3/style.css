@@ -1,0 +1,20 @@
+.wrap {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    height: 100vh;
+}
+.btn {
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+input {
+    margin-bottom: 30px;
+    padding: 15px;
+}

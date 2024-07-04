@@ -1,0 +1,28 @@
+@import "null.scss";
+
+$mainColor: purple;
+
+.header {
+    padding: 15px;
+    h1 {
+        color: $mainColor;
+    }
+    h2 {
+        color: darkseagreen;
+    }
+}
+.main {
+    padding: 15px;
+    h2 {
+        color: aquamarine;
+    }
+}
+.footer {
+    padding: 15px;
+    h2 {
+        color: deepskyblue;
+    }
+    h3 {
+        color: indianred;
+    }
+}

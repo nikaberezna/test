@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.items-gallery {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.items-gallery-hover-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -200px;
+    left: 0;
+    padding: 15px;
+    z-index: 1;
+    display: none;
+}
+.items-gallery-hover-box h4 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+.items-gallery-hover-box a:first-child {
+    color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.items-gallery-hover-box a:last-child {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.items-gallery:hover .items-gallery-hover-box {
+    display: block;
+}
+.header h1 {
+    color: white;
+    z-index: 7;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.header img {
+    z-index: 2;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+.header h3 {
+    color: white;
+    z-index: 7;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: Brush Script MT;
+}
+.header h4 {
+    color: white;
+    z-index: 7;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: monospace;
+}
+.paragraph p {
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.button1 button {
+    display: block;
+    width: 180px;
+    height: 30px;
+    background: #fd5821;
+    margin: 30px;
+    border: none;
+    color: white; 
+    position: absolute;
+    top: 300px;
+    left: 48%;
+    transform: translate(-50%,0%);
+    border-radius: 25px;
+    box-shadow: 0px 6px 20px 0px #000000;
+}

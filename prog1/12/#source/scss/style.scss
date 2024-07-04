@@ -1,0 +1,31 @@
+@import "null.scss";
+//key
+$mainColor: black;
+
+.header {
+    background-color: rgba(143, 188, 143, 0.608);
+    .header__container{
+        .header__logo {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $mainColor;
+        }
+        display: flex;
+        max-width: 1170px;
+        margin: auto;
+        justify-content: space-around;
+        align-items: center;
+        .header menu {
+            display: flex;
+            gap: 20px;
+            li{
+                list-style: none;
+            }
+            a {
+                text-decoration: none;
+                color: $mainColor;
+                font-size: 25px;
+            }
+        }
+    }
+}

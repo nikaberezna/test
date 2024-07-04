@@ -1,0 +1,14 @@
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-transform: uppercase;
+    color: teal;
+}

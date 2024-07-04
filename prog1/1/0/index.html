@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <div class="wrap">
+    <h1>List</h1>
+    <div class="list-container">
+        <ul>
+            <li>number</li>
+            <li>number</li>
+            <li>number</li>
+            <li>number</li>
+            <li>number</li>
+        </ul>
+    </div>
+  </div>
+  <style>
+    .wrap {
+        width: 1170px;
+        margin:  auto;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .list-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:wrap;
+        gap: 10px;
+    }
+    ul{
+        background-color: blueviolet;
+        color: aliceblue;
+        padding: 60px;
+        border-radius: 30px;
+    }
+    li:hover {
+        color: aqua;
+        font-size: 22px;
+    }
+  </style>
+</body>
+</html>

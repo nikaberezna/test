@@ -1,0 +1,53 @@
+.container p:nth-child(2) {
+    background-color: mediumorchid;
+}
+.container p:nth-child(3):hover {
+    background-color: lightgoldenrodyellow;
+}
+
+h1:hover {
+    font-weight: bold;
+    font-size: 32px;
+    color: darkseagreen;
+}
+
+.list li:first-child {
+    color: turquoise;
+}
+.list li:last-child {
+    color: turquoise;
+}
+
+.input-focus {
+    border: none;
+    border-bottom: 1px solid blue;
+    background-color: transparent;
+    outline: none;
+}
+#title {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+}
+#title:after {
+content: "";
+position: absolute;
+width: 120px;
+height: 3px;
+background-color: blueviolet;
+bottom: -10%;
+left: 50%;
+transform: translate(-50%, 50%);
+}
+#title::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: blueviolet;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    }
+    

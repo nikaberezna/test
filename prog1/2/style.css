@@ -1,0 +1,26 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.block-text p {
+    color: darkorchid;
+    background-color: black;
+}
+    .block-text span {
+        color: aqua;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color:rgb(139, 0, 116);
+    margin: 30px;
+    margin: 10px 20px 10px 20px;
+    padding: 100px;
+}
+
+ul {
+    border: 1px solid gray;
+    width: 120px;
+}

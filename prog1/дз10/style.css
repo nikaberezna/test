@@ -1,0 +1,104 @@
+.flex-container {
+    max-width: 100%;
+     gap: 0 20px;
+     padding: 10px;
+     display: flex;
+     position: relative;  
+}
+.container {
+    position: absolute;
+    top: 170px;
+    left: 25%;
+    width: 220px;
+    height: 280px;
+    background-color:  rgb(74, 76, 94); 
+}
+.container2 {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 220px;
+    height: 360px;
+    background-color:   rgb(74, 76, 94); 
+}
+.container3 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 220px;
+    height: 440px;
+    background-color:  rgb(74, 76, 94);
+}
+.container h5 {
+    margin: 5px;
+    color: white;
+    padding: 0 5px;
+}
+.container2 h5 {
+    margin: 5px;
+    color: white;
+    padding: 0 5px;
+}
+.container3 h5 {
+    margin: 5px;
+    color: white;
+    padding: 0 5px;
+}
+.container h1 {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     color: white;
+}
+.container2 h1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+.container3 h1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+.container button {
+    display: block;
+    width: 160px;
+    height: 30px;
+    background: white;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(74, 76, 94);
+}
+.container2 button {
+    display: block;
+    width: 160px;
+    height: 30px;
+    background: white;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color:  rgb(74, 76, 94);
+}
+.container3 button {
+    display: block;
+    width: 160px;
+    height: 30px;
+    background: white;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color:  rgb(74, 76, 94);
+}
+@media screen and (max-wight: 425px) {
+   .container2 {
+     flex-direction: column;
+     flex-wrap: wrap;
+   }
+   .container3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
